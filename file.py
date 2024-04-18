@@ -25,7 +25,7 @@ def csv_para_json(nome_arquivo_csv, nome_arquivo_json):
         json.dump(dados_json, arquivo_json, indent=4)
 
 
-nome_arquivo_csv = r'C:/Users/luiz.cesar/Desktop/projeto/enelsp.csv'
+nome_arquivo_csv = r'enelsp.csv'
 
 
 nome_arquivo_json = 'enelsp.json'
